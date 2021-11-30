@@ -1,10 +1,22 @@
-<?php require_once('../../../private/initialize.php'); ?>
+<?php require_once('../../../private/initialize.php');
+require_login();
+
+?>
 
 <?php
-  
+$current_page = $_GET['page'] ?? 1;
+$per_page = 5;
+$total_count = Bicycle::count_all();
 // Find all bicycles;
-$bicycles = Bicycle::find_all();
-  
+// Use pagination instead
+// $bicycles = Bicycle::find_all();
+  $pagination = new Pagination($current_page, $per_page, $total_count);
+
+  $sql = "SELECT * FROM bicycles ";
+  $sql .= "LIMIT {$per_page} ";
+  $sql .= "OFFSET {$pagination->offset()}";
+  $bicycles = Bicycle::find_by_sql($sql);
+
 ?>
 <?php $page_title = 'Bicycles'; ?>
 <?php include(SHARED_PATH . '/staff_header.php'); ?>
@@ -48,6 +60,23 @@ $bicycles = Bicycle::find_all();
     	  </tr>
       <?php } ?>
   	</table>
+
+      <?php
+        if($pagination->total_pages() > 1) {
+            echo "<div class=\"pagination\">";
+
+            $url = url_for('/staff/bicycles/index.php');
+            if($pagination->previous_page() != false) {
+                echo "<a href=\"{$url}?page={$pagination->previous_page()}\">";
+                echo "&laquo; Previous </a>";
+            }
+            if($pagination->next_page() != false) {
+                echo "<a href=\"{$url}?page={$pagination->next_page()}\">";
+                echo "Next &raquo;</a>";
+            }
+            echo "</div>";
+        }
+      ?>
 
   </div>
 

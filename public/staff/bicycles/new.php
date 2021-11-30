@@ -1,6 +1,7 @@
 <?php
 
 require_once('../../../private/initialize.php');
+require_login();
 
 if(is_post_request()) {
 
@@ -12,8 +13,9 @@ if(is_post_request()) {
 
   if($result === true) {
     $new_id = $bicycle->id;
-    $_SESSION['message'] = 'The bicycle was created successfully.';
-    redirect_to(url_for('/staff/bicycles/show.php?id=' . $new_id));
+    $session->message('The bicycle was created successfully.');
+
+      redirect_to(url_for('/staff/bicycles/show.php?id=' . $new_id));
   } else {
     // show errors
   }
