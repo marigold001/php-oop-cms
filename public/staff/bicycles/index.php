@@ -62,20 +62,8 @@ $total_count = Bicycle::count_all();
   	</table>
 
       <?php
-        if($pagination->total_pages() > 1) {
-            echo "<div class=\"pagination\">";
-
             $url = url_for('/staff/bicycles/index.php');
-            if($pagination->previous_page() != false) {
-                echo "<a href=\"{$url}?page={$pagination->previous_page()}\">";
-                echo "&laquo; Previous </a>";
-            }
-            if($pagination->next_page() != false) {
-                echo "<a href=\"{$url}?page={$pagination->next_page()}\">";
-                echo "Next &raquo;</a>";
-            }
-            echo "</div>";
-        }
+            echo $pagination->page_links($url);
       ?>
 
   </div>

@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e10cac3-e868-4602-91cb-30461ea35771" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/private/classes/pagination.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/classes/admin.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/classes/admin.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/classes/databaseobject.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/classes/databaseobject.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/staff_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/staff_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/status_error_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/status_error_functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/validation_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/validation_functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/staff/admins/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/staff/admins/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/staff/admins/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/staff/admins/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/classes/pagination.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/classes/pagination.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bicycles.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/bicycles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/staff/admins/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/staff/admins/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/staff/admins/new.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/staff/admins/new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/staff/admins/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/staff/admins/show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/staff/bicycles/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/staff/bicycles/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/staff/bicycles/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/staff/bicycles/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/staff/bicycles/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/staff/bicycles/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/staff/bicycles/new.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/staff/bicycles/new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/staff/bicycles/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/staff/bicycles/show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/staff/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/staff/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/staff.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/staff.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +59,7 @@
       <workItem from="1638015059573" duration="7747000" />
       <workItem from="1638117873289" duration="4187000" />
       <workItem from="1638279052237" duration="2368000" />
-      <workItem from="1638290205159" duration="8633000" />
+      <workItem from="1638290205159" duration="10863000" />
     </task>
     <servers />
   </component>

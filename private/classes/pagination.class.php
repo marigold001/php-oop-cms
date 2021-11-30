@@ -30,6 +30,50 @@ class Pagination {
         $prev = $this->current_page - 1;
         return ($prev > 0) ? $prev : false;
     }
+
+    public function previous_link($url = '') {
+        $link = "";
+        if($this->previous_page() != false) {
+            $link .= "<a href=\"{$url}?page={$this->previous_page()}\">";
+            $link .= "&laquo; Previous </a>";
+        }
+            return $link;
+    }
+
+    public function next_link($url = '') {
+        $link = "";
+
+        if($this->next_page() != false) {
+            $link .= "<a href=\"{$url}?page={$this->next_page()}\">";
+            $link .= "Next &raquo;</a>";
+        }
+            return $link;
+    }
+
+    public function number_links($url) {
+        $output = "";
+        for($i=1; $i <= $this->total_pages(); $i++) {
+            if($i == $this->current_page) {
+                $output .= "<span class=\"selected\">{$i}</span>";
+            } else {
+                $output .= "<a href=\"{$url}?page={$i}\">{$i}</a>";
+            }
+
+        }
+        return $output;
+    }
+
+    public function page_links($url) {
+        $output = "";
+        if($this->total_pages() > 1) {
+            $output .= "<div class=\"pagination\">";
+            $output .= $this->previous_link($url);
+            $output .= $this->number_links($url);
+            $output .= $this->next_link($url);
+            $output .= "</div>";
+        }
+        return $output;
+    }
 }
 
 ?>

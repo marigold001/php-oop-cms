@@ -131,6 +131,8 @@ dd {
 
 /* Session Messages */
 
+
+/* Pagination */
 #message {
   color: #0B61A5;
   background: white;
@@ -139,3 +141,18 @@ dd {
   margin: 1em 30px;
   width: 890px;
 }
+
+.pagination {
+  margin: 1em 0;
+}
+
+.pagination a, .pagination span {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.pagination span.selected {
+  font-weight: bold;
+  color: #000;
+}
+

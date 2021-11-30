@@ -146,3 +146,27 @@ table#inventory tr td, table#inventory tr th {
 .detail dl dd {
   float: left;
 }
+
+/* Pagination */
+#message {
+  color: #0B61A5;
+  background: white;
+  border: 2px solid #0B61A5;
+  padding: 1em 15px;
+  margin: 1em 30px;
+  width: 890px;
+}
+
+.pagination {
+  margin: 1em 0;
+}
+
+.pagination a, .pagination span {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.pagination span.selected {
+  font-weight: bold;
+  color: #000;
+}
