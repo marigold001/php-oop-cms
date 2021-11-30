@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1e10cac3-e868-4602-91cb-30461ea35771" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/classes/bicycle.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/classes/bicycle.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/used_bicycles.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../contacts" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,6 +48,12 @@
       <updated>1637510406449</updated>
       <workItem from="1637510408483" duration="6254000" />
       <workItem from="1637684393226" duration="97000" />
+      <workItem from="1637684538746" duration="1638000" />
+      <workItem from="1637687406572" duration="2894000" />
+      <workItem from="1638015059573" duration="7747000" />
+      <workItem from="1638117873289" duration="4187000" />
+      <workItem from="1638279052237" duration="2368000" />
+      <workItem from="1638290205159" duration="607000" />
     </task>
     <servers />
   </component>
